@@ -6,7 +6,7 @@ namespace SomeBasicElemnts.Interfaces
     {
         public void GetAndKill()
         {
-            Console.WriteLine("Piff");
+            Console.WriteLine("This is bone type of weapon. It doing 'Piff' ");
         }
     }
 }

@@ -6,7 +6,7 @@ namespace SomeBasicElemnts.Interfaces
     {
         public void GetAndKill()
         {
-            Console.WriteLine("Swaff");
+            Console.WriteLine("This is sword type of weapon. It doing 'Swaffffff'");
         }
     }
 }

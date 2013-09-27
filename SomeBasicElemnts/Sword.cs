@@ -4,9 +4,7 @@ namespace SomeBasicElemnts
 {
     public class Sword:Weapon
     {
-        public override int Damage { get; set; }
-
-        public Sword()
+        public Sword(string name, int dmg) : base(dmg,name)
         {
             Type = new SwordType();
         }

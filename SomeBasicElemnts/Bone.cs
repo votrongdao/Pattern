@@ -3,11 +3,9 @@ using SomeBasicElemnts.Interfaces;
 
 namespace SomeBasicElemnts
 {
-    class Bone:Weapon
+    public class Bone:Weapon
     {
-        public override int Damage { get; set; }
-
-        public Bone()
+        public Bone(string name,int dmg):base(dmg, name)
         {
             Type = new BoneType();
 
