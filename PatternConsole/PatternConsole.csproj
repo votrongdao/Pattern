@@ -48,13 +48,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Observer\Observer.csproj">
+      <Project>{83886C41-6775-4766-AC16-1562241BCE79}</Project>
+      <Name>Observer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RunPattern\RunPatternBasic.csproj">
       <Project>{D2C3B435-8F97-4287-A561-1538F196DCC1}</Project>
       <Name>RunPatternBasic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SomeBasicElemnts\SomeBasicElemnts.csproj">
+    <ProjectReference Include="..\SomeBasicElemnts\Strategy.csproj">
       <Project>{4e0d4b81-a7fe-4307-8d54-6a0dbf761a41}</Project>
-      <Name>SomeBasicElemnts</Name>
+      <Name>Strategy</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

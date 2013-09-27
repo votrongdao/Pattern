@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Realization", "Realization", "{6ABDB210-DDD2-474F-B94F-35E086607689}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeBasicElemnts", "SomeBasicElemnts\SomeBasicElemnts.csproj", "{4E0D4B81-A7FE-4307-8D54-6A0DBF761A41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "SomeBasicElemnts\Strategy.csproj", "{4E0D4B81-A7FE-4307-8D54-6A0DBF761A41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunPatternBasic", "RunPattern\RunPatternBasic.csproj", "{D2C3B435-8F97-4287-A561-1538F196DCC1}"
 EndProject
@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{74AFAB
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{83886C41-6775-4766-AC16-1562241BCE79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,12 +38,17 @@ Global
 		{B74312BD-2AEA-403D-8E48-39B777FD6557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B74312BD-2AEA-403D-8E48-39B777FD6557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B74312BD-2AEA-403D-8E48-39B777FD6557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83886C41-6775-4766-AC16-1562241BCE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83886C41-6775-4766-AC16-1562241BCE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83886C41-6775-4766-AC16-1562241BCE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83886C41-6775-4766-AC16-1562241BCE79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4E0D4B81-A7FE-4307-8D54-6A0DBF761A41} = {6ABDB210-DDD2-474F-B94F-35E086607689}
+		{83886C41-6775-4766-AC16-1562241BCE79} = {6ABDB210-DDD2-474F-B94F-35E086607689}
 		{B74312BD-2AEA-403D-8E48-39B777FD6557} = {FE8B32B5-F986-491D-8588-B8CD5537DEB4}
 	EndGlobalSection
 EndGlobal
