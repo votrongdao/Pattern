@@ -48,6 +48,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Decorator\Decorator.csproj">
+      <Project>{54E4E6C0-071E-4F74-8C87-6D6E88BD28AE}</Project>
+      <Name>Decorator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{83886C41-6775-4766-AC16-1562241BCE79}</Project>
       <Name>Observer</Name>
