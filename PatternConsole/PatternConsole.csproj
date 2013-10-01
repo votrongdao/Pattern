@@ -52,6 +52,10 @@
       <Project>{54E4E6C0-071E-4F74-8C87-6D6E88BD28AE}</Project>
       <Name>Decorator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Factory\Factory.csproj">
+      <Project>{F1B85F8C-956F-4279-AF17-A40309E304FA}</Project>
+      <Name>Factory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{83886C41-6775-4766-AC16-1562241BCE79}</Project>
       <Name>Observer</Name>

@@ -9,7 +9,8 @@ namespace PatternConsole
             Run runner;
             // = new SomeBasicElemnts.WeaponRunner();
             //= new Observer.RunObserver();
-            runner = new Decorator.RunDecorator();
+            // = new Decorator.RunDecorator();
+            runner = new FactoryMethod.RunFactory();
                 
 
             runner.RunApp();
