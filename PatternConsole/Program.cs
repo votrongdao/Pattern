@@ -8,10 +8,10 @@ namespace PatternConsole
         {
             Run runner;
             // = new SomeBasicElemnts.WeaponRunner();
-            //= new Observer.RunObserver();
+            // = new Observer.RunObserver();
             // = new Decorator.RunDecorator();
-            runner = new FactoryMethod.RunFactory();
-                
+            // = new FactoryMethod.RunFactory();
+            runner = new Command.RunCommand();
 
             runner.RunApp();
         }

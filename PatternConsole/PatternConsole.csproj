@@ -48,13 +48,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Command\Command.csproj">
+      <Project>{E1CC6992-F1A7-4963-A21C-6A9CEA8B2FE6}</Project>
+      <Name>Command</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Decorator\Decorator.csproj">
       <Project>{54E4E6C0-071E-4F74-8C87-6D6E88BD28AE}</Project>
       <Name>Decorator</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Factory\Factory.csproj">
+    <ProjectReference Include="..\Factory\FactoryMethod.csproj">
       <Project>{F1B85F8C-956F-4279-AF17-A40309E304FA}</Project>
-      <Name>Factory</Name>
+      <Name>FactoryMethod</Name>
     </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{83886C41-6775-4766-AC16-1562241BCE79}</Project>
