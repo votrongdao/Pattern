@@ -1,4 +1,5 @@
-﻿using RunPattern;
+﻿
+using RunPattern;
 
 namespace PatternConsole
 {
@@ -11,8 +12,8 @@ namespace PatternConsole
             // = new Observer.RunObserver();
             // = new Decorator.RunDecorator();
             // = new FactoryMethod.RunFactory();
-            runner = new Command.RunCommand();
-
+            //runner = new Command.RunCommand();
+            runner = new Adapter.RunAdapter();
             runner.RunApp();
         }
     }
