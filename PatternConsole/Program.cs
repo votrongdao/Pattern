@@ -13,7 +13,8 @@ namespace PatternConsole
             // = new FactoryMethod.RunFactory();
             //runner = new Command.RunCommand();
             //runner = new Adapter.RunAdapter();
-            runner = new Facade.RunFacade();
+//            runner = new Facade.RunFacade();
+            runner = new TemplateMethod.RunTemplateMethod();
             runner.RunApp();
         }
     }

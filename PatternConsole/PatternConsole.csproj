@@ -80,6 +80,10 @@
       <Project>{4e0d4b81-a7fe-4307-8d54-6a0dbf761a41}</Project>
       <Name>Strategy</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TemplateMethod\TemplateMethod.csproj">
+      <Project>{9ABFE418-D39C-4CEE-8D32-2BCBCEF8D7FB}</Project>
+      <Name>TemplateMethod</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
