@@ -60,6 +60,10 @@
       <Project>{54E4E6C0-071E-4F74-8C87-6D6E88BD28AE}</Project>
       <Name>Decorator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Facade\Facade.csproj">
+      <Project>{FAE14E3D-DF19-4BA0-8663-3DFE4EA8B0F7}</Project>
+      <Name>Facade</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Factory\FactoryMethod.csproj">
       <Project>{F1B85F8C-956F-4279-AF17-A40309E304FA}</Project>
       <Name>FactoryMethod</Name>
