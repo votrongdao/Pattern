@@ -16,6 +16,7 @@ namespace Command
     {
         private JamesBondPhone _phone;
         private Car _car;
+        IOutputWritter _writter = new ConsoleWritter();
 
         public override void RunApp()
         {
@@ -23,13 +24,13 @@ namespace Command
             _phone = new JamesBondPhone(_car);
 
             _phone.RunCommand(1);//active stereo
-            Console.WriteLine(_car.ToString());
-            Console.WriteLine("\n\n");
+            _writter.WriteLine(_car.ToString());
+            _writter.WriteLine("\n\n");
 
             _phone.RunCommand(3);//active engine
             _phone.RunCommand(4);//set transmission to auto type
-            Console.WriteLine("\n\n");
-            Console.WriteLine(_car.ToString());
+            _writter.WriteLine("\n\n");
+            _writter.WriteLine(_car.ToString());
             
         }
     }
