@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using RunPattern;
 
 namespace Observer
 {
@@ -12,7 +8,8 @@ namespace Observer
         /// Case of agent. 
         /// </summary>
         /// <param name="name"></param>
-        public James(string name) : base(name)
+        /// <param name="writter"></param>
+        public James(string name, IOutputWritter writter) : base(name, writter)
         {
         }
     }

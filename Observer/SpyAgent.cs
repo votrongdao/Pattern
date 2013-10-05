@@ -1,5 +1,5 @@
-﻿using System;
-using Observer.Interfaces;
+﻿using Observer.Interfaces;
+using RunPattern;
 
 namespace Observer
 {
@@ -9,10 +9,11 @@ namespace Observer
         private string _status;
 
         public string Name;
-
-        protected SpyAgent(string name)
+        private readonly IOutputWritter _writter;
+        protected SpyAgent(string name, IOutputWritter writter)
         {
             Name = name;
+            _writter = writter;
         }
 
         public void UpdateInformation(string status, string operation)
@@ -23,7 +24,7 @@ namespace Observer
 
         public void Confirm()
         {
-            Console.WriteLine("I understand. Agent {0} take mission {1} with status {2}",Name,_operation, _status);
+            _writter.WriteLine(string.Format("I understand. Agent {0} take mission {1} with status {2}",Name,_operation, _status));
         }
     }
 }
