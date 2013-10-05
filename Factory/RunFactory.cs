@@ -5,7 +5,6 @@
 
 #region
 
-using System;
 using FactoryMethod.Factories;
 using RunPattern;
 
@@ -21,11 +20,12 @@ namespace FactoryMethod
         /// </summary>
         public override void RunApp()
         {
+            IOutputWritter writter = new ConsoleWritter();
             var factory = new DeathStarFactory();
             var deathStar = factory.CreateDeathStar("DarthVaderLoveHisMom", 10000, 2500);
-            Console.WriteLine(deathStar.ToString());
+            writter.WriteLine(deathStar.ToString());
             deathStar = factory.CreateDeathStar("BB Watson", 250, 125);
-            Console.WriteLine(deathStar.ToString());
+            writter.WriteLine(deathStar.ToString());
         }
     }
 }
