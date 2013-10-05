@@ -9,18 +9,19 @@ namespace Decorator
     {
         public override void RunApp()
         {
+            IOutputWritter writter = new ConsoleWritter();
            //Need for Speed !!!
             Car car = new BatmanCar();
-            Console.WriteLine(car.GetDescription()+" "+car.Price());
+            writter.WriteLine(car.GetDescription()+" "+car.Price());
 
             car = new TurboEngine(car);
-            Console.WriteLine(car.GetDescription() + " " + car.Price());
+            writter.WriteLine(car.GetDescription() + " " + car.Price());
 
             car = new FastTransmission(car);
-            Console.WriteLine(car.GetDescription() + " " + car.Price());
+            writter.WriteLine(car.GetDescription() + " " + car.Price());
 
             car = new AbSsystems(car);
-            Console.WriteLine(car.GetDescription() + " " + car.Price());
+            writter.WriteLine(car.GetDescription() + " " + car.Price());
         }
     }
 }
