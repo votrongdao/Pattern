@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Observer.Interfaces
+﻿namespace Observer.Interfaces
 {
     /// <summary>
     /// This interface will be implement by our "observers" - spy agent

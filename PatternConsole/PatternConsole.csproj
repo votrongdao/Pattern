@@ -68,6 +68,10 @@
       <Project>{F1B85F8C-956F-4279-AF17-A40309E304FA}</Project>
       <Name>FactoryMethod</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Iterator\Iterator.csproj">
+      <Project>{93F6B75D-9EAB-4B12-BCFA-B9BD77204F01}</Project>
+      <Name>Iterator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{83886C41-6775-4766-AC16-1562241BCE79}</Project>
       <Name>Observer</Name>
