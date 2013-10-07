@@ -1,7 +1,9 @@
-﻿using RunPattern;
+﻿
 
 namespace PatternConsole
 {
+    using RunPattern;
+
     class Program
     {
         static void Main(string[] args)
@@ -11,10 +13,11 @@ namespace PatternConsole
 //            runner = new Observer.RunObserver();
 //            runner = new Decorator.RunDecorator();
 //            runner = new FactoryMethod.RunFactory();
-            runner = new Command.RunCommand();
-            //runner = new Adapter.RunAdapter();
+//            runner = new Command.RunCommand();
+//            runner = new Adapter.RunAdapter();
 //            runner = new Facade.RunFacade();
-            //runner = new TemplateMethod.RunTemplateMethod();
+//            runner = new TemplateMethod.RunTemplateMethod();
+            runner = new Iterator.RunIterator();
             runner.RunApp();
         }
     }
