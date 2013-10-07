@@ -11,9 +11,13 @@ namespace Observer
         /// </summary>
         public override void RunApp()
         {
+            IOutputWritter outputWritter = new ConsoleWritter();
+            
+
+
             var hq = new HeadQuartes();
-            IObserver jamesbond = new James("James Bond");
-            IObserver tanyaRomanova = new Tanya("Romanova Tanya");
+            IObserver jamesbond = new James("James Bond", outputWritter);
+            IObserver tanyaRomanova = new Tanya("Romanova Tanya", outputWritter);
 
             hq.RegisterNewSpy(jamesbond);
             hq.RegisterNewSpy(tanyaRomanova);

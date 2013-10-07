@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace SomeBasicElemnts.Interfaces
+﻿namespace SomeBasicElemnts.Interfaces
 {
     class SwordType:IWeaponType
     {
-        public void GetAndKill()
+        public string GetAndKill()
         {
-            Console.WriteLine("This is sword type of weapon. It doing 'Swaffffff'");
+            return "This is sword type of weapon. It doing 'Swaffffff'";
         }
     }
 }

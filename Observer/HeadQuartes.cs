@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Observer.Interfaces;
 
 namespace Observer
@@ -53,7 +52,6 @@ namespace Observer
             {
                 agent.Confirm();
             }
-            Console.WriteLine();
         }
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface IWeaponType
     {
-        void GetAndKill();
+        string GetAndKill();
     }
 }

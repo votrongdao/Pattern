@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace SomeBasicElemnts.Interfaces
+﻿namespace SomeBasicElemnts.Interfaces
 {
     class BoneType:IWeaponType
     {
-        public void GetAndKill()
+
+
+        public string GetAndKill()
         {
-            Console.WriteLine("This is bone type of weapon. It doing 'Piff' ");
+           return "This is bone type of weapon. It doing 'Piff' ";
         }
     }
 }
