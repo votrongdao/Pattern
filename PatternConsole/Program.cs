@@ -1,6 +1,4 @@
-﻿
-
-namespace PatternConsole
+﻿namespace PatternConsole
 {
     using RunPattern;
 
@@ -17,7 +15,8 @@ namespace PatternConsole
 //            runner = new Adapter.RunAdapter();
 //            runner = new Facade.RunFacade();
 //            runner = new TemplateMethod.RunTemplateMethod();
-            runner = new Iterator.RunIterator();
+//            runner = new Iterator.RunIterator();
+            runner = new Composite.RunComposite();
             runner.RunApp();
         }
     }
