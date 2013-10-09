@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -87,6 +88,10 @@
     <ProjectReference Include="..\SomeBasicElemnts\Strategy.csproj">
       <Project>{4e0d4b81-a7fe-4307-8d54-6a0dbf761a41}</Project>
       <Name>Strategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\State\State.csproj">
+      <Project>{B8B5F4DA-FD87-4684-BBD0-3505A0F8EE79}</Project>
+      <Name>State</Name>
     </ProjectReference>
     <ProjectReference Include="..\TemplateMethod\TemplateMethod.csproj">
       <Project>{9ABFE418-D39C-4CEE-8D32-2BCBCEF8D7FB}</Project>

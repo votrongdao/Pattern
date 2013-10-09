@@ -16,7 +16,8 @@
 //            runner = new Facade.RunFacade();
 //            runner = new TemplateMethod.RunTemplateMethod();
 //            runner = new Iterator.RunIterator();
-            runner = new Composite.RunComposite();
+//            runner = new Composite.RunComposite();
+            runner = new State.RunState();
             runner.RunApp();
         }
     }
