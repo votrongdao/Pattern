@@ -17,7 +17,8 @@
 //            runner = new TemplateMethod.RunTemplateMethod();
 //            runner = new Iterator.RunIterator();
 //            runner = new Composite.RunComposite();
-            runner = new State.RunState();
+//            runner = new State.RunState();
+            runner = new Proxy.RunProxy();
             runner.RunApp();
         }
     }

@@ -81,6 +81,10 @@
       <Project>{83886C41-6775-4766-AC16-1562241BCE79}</Project>
       <Name>Observer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Proxy\Proxy.csproj">
+      <Project>{AA0D75FA-B08D-4EC4-B05E-81A5E77DFE35}</Project>
+      <Name>Proxy</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RunPattern\RunPatternBasic.csproj">
       <Project>{D2C3B435-8F97-4287-A561-1538F196DCC1}</Project>
       <Name>RunPatternBasic</Name>
