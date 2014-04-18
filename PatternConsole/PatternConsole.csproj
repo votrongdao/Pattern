@@ -73,6 +73,10 @@
       <Project>{F1B85F8C-956F-4279-AF17-A40309E304FA}</Project>
       <Name>FactoryMethod</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Flyweight\Flyweight.csproj">
+      <Project>{4de3a951-1944-4f7a-a2f0-7d887cf1c381}</Project>
+      <Name>Flyweight</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Iterator\Iterator.csproj">
       <Project>{93F6B75D-9EAB-4B12-BCFA-B9BD77204F01}</Project>
       <Name>Iterator</Name>
@@ -88,6 +92,10 @@
     <ProjectReference Include="..\RunPattern\RunPatternBasic.csproj">
       <Project>{D2C3B435-8F97-4287-A561-1538F196DCC1}</Project>
       <Name>RunPatternBasic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Singelton\Singelton.csproj">
+      <Project>{4d483800-d555-43f6-bdb9-98d3cd615681}</Project>
+      <Name>Singelton</Name>
     </ProjectReference>
     <ProjectReference Include="..\SomeBasicElemnts\Strategy.csproj">
       <Project>{4e0d4b81-a7fe-4307-8d54-6a0dbf761a41}</Project>

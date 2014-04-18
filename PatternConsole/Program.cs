@@ -1,4 +1,6 @@
-﻿namespace PatternConsole
+﻿using System;
+
+namespace PatternConsole
 {
     using RunPattern;
 
@@ -18,8 +20,9 @@
 //            runner = new Iterator.RunIterator();
 //            runner = new Composite.RunComposite();
 //            runner = new State.RunState();
-            runner = new Proxy.RunProxy();
+            runner = new Flyweight.RunFlyweight();
             runner.RunApp();
+
         }
     }
 }
